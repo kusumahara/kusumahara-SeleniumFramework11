@@ -22,7 +22,7 @@ public class UITest
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/logi");
+	driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	
 	}}
 //vamsi changed.
